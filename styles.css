@@ -1,0 +1,88 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    background-color: rgb(54, 53, 54);
+ }  
+div {
+    margin: auto;
+    width: 70%;
+    background-color: rgb(113, 126, 238);
+    border-radius: 7px;
+}
+.topnav {
+    width: 99%;
+    height: auto;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 0px;
+    clear: both;
+}
+#appTitle {
+    color: cornsilk;
+    font-size: 25px;
+    text-align: left;
+    font-style: italic;
+    width: 40%;
+    display: inline;
+}
+#navSearch {
+    width: auto;
+    max-width: 40%;
+    float: right;
+    margin-right: 10px;
+}
+#topSearch {
+    width: auto;
+    padding: 5px;
+    border-radius: 7px;
+    border-width: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+#resultClear{
+    width: auto;
+    padding: 5px;
+    border-radius: 7px;
+    border-width: 0px;
+    float: right;
+    margin-right: 20px;
+}
+.searchIcon {
+    padding: 5px;
+    border-radius: 7px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-width: 0px;
+}
+.mainCont {
+    clear: both;
+    padding: 20px;
+}
+#mainSearch {
+    font-size: 18px;
+    width: 30%;
+    padding: 15px;
+    border-width: 0px;
+    border-radius: 7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hidden{
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+td {
+    font-size: 20px;
+    color: cornsilk;
+    width: auto;
+    height: 300px;
+    width: 50%;
+    font-weight: bold;
+}
